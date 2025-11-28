@@ -7,6 +7,14 @@ class Point2D
         double y;       //  二维下的纵坐标
 
     public:
+        Point2D()
+        {
+            x = 0;
+            y = 0;
+        }
+
+        //用于其他类内的初始化直接在坐标0,0生成
+        
         Point2D(double _x,double _y):x(_x),y(_y){}
 
         //  对各个运算符进行重载实现向量的加减乘除
