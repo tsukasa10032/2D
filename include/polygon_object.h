@@ -4,6 +4,10 @@
 #include <stdexcept>
 #include "Point2D.h"
 
+#define AXIS_INVAILD 0      //无效轴
+#define AXIS_CENTROID_X 1   //质心X轴
+#define AXIS_CENTROID_Y 2   //质心Y轴
+
 class Polygon_Object
 {
     private:
@@ -14,19 +18,15 @@ class Polygon_Object
         double e;                       //多边形的碰撞系数
         double friction;                //多边形的摩擦系数
         double moment_of_inertia;       //多边形的转动惯量
+        int axis_type;                  //转轴类型
+        Point2D centroid;               //质心位置
 
-        void get_moment_of_inertia()
-        {
-            /*待实现*/
-        }
-
-        void get_axis_type()
-        {
-            /*待实现*/
-        }
-
+        void get_moment_of_inertia();
+        void get_axis_type();
+        void get_centroid();
         void update_physics()
         {
+            get_centroid();
             get_axis_type();
             get_moment_of_inertia();
         }
@@ -114,5 +114,15 @@ class Polygon_Object
             }
             else
                 friction = f;
+        }
+
+        void modify_centroid_axis(int type)
+        {
+            if(type != AXIS_CENTROID_X && type != AXIS_CENTROID_Y)
+            {
+                throw std::invalid_argument("仅支持质心X/Y轴");
+            }
+            axis_type = type;
+            get_moment_of_inertia();
         }
 };

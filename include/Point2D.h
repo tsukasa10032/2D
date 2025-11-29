@@ -53,4 +53,14 @@ class Point2D
             double len = length();
             return len == 0 ? Point2D{0,0} : Point2D{x / len , y / len};
         }
+
+        double get_x() const
+        {
+            return x;
+        }
+
+        double get_y() const
+        {
+            return y;
+        }
 };
