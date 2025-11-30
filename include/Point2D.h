@@ -6,6 +6,8 @@ class Point2D
         double x;       //  二维下的横坐标
         double y;       //  二维下的纵坐标
 
+        const double EPS = 1e-6;
+
     public:
         Point2D()
         {
@@ -31,6 +33,29 @@ class Point2D
         Point2D operator*(double num) const
         {
             return {x*num, y*num};
+        }
+
+        Point2D& operator=(const Point2D& other)
+        {
+            if(this == &other)
+            {
+                return *this;
+            }
+
+            this->x = other.x;
+            this->y = other.y;
+
+            return *this;
+        }
+
+        bool operator==(const Point2D& other) const
+        {
+            return std::abs(this->x - other.x) < EPS && std::abs(this->y - other.y) < EPS;
+        }
+
+        bool operator!=(const Point2D& other) const
+        {
+            return !(*this == other);
         }
 
         double dot(const Point2D& other) const
@@ -62,5 +87,14 @@ class Point2D
         double get_y() const
         {
             return y;
+        }
+
+        Point2D& modify_x(double _x)
+        {
+            this->x = _x;
+        }
+        Point2D& modify_y(double _y)
+        {
+            this->y = _y;
         }
 };
