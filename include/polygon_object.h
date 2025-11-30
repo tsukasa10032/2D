@@ -12,6 +12,14 @@
 class Polygon_Object:Physics_Object
 {
     private:
+        double mass;
+        double angular_velocity;
+        Point2D velocity;
+        Point2D centroid;
+        double friction;
+        double e;
+        double moment_of_inertia;
+        double radius;
         std::vector<Point2D> coor_poly;  //多边形的顶点
         int axis_type;                  //转轴类型
 
@@ -67,6 +75,7 @@ class Polygon_Object:Physics_Object
             {
                 friction = _friction;
             }
+            update_physics();
         }
 
         //  用于读取变量的get方法
@@ -99,9 +108,6 @@ class Polygon_Object:Physics_Object
             get_moment_of_inertia();
         }
 
-        void update(double delta_time)
-        {
-            
-        }
-        void accept(Collision_Visitor& visitor) = 0;
+        void update(double delta_time) override;
+        void accept(Collision_Visitor& visitor) override;
 };

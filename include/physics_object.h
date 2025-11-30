@@ -23,8 +23,6 @@ class Physics_Object
             virtual double get_angular_velocity(){return angular_velocity;}
             virtual double get_e(){return e;};
             virtual double get_friction(){return friction;}
-            virtual double get_moment_of_inertia(){return moment_of_inertia;}
-            virtual double get_radius(){return radius;}
             //都支持的modify方法
             void modify_velocity(const Point2D& v){velocity = v;}
             void modify_angular_velocity(const double a_v){angular_velocity = a_v;}

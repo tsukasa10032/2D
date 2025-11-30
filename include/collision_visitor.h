@@ -1,6 +1,3 @@
-#include "polygon_object.h"
-#include "circle_object.h"
-
 class Collision_Visitor
 {
     public:

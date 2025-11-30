@@ -5,6 +5,14 @@
 class Circle_Object:Physics_Object
 {
     private:
+        Point2D centroid;           //位置(质心),(假设均匀的情况,圆形质心即为圆心)
+        Point2D velocity;           //法相速度
+        double mass;                //质量
+        double angular_velocity;    //角速度
+        double moment_of_inertia;   //转动惯量
+        double friction;            //摩擦系数
+        double e;                   //碰撞系数
+        double radius;              //旋转半径
         void get_moment_of_inertia()
         {
             moment_of_inertia = 0.5*mass*radius*radius;
@@ -19,7 +27,7 @@ class Circle_Object:Physics_Object
         double _angular_velocity,
         double _e = 1.0,
         double _friction = 0.0,
-        const Point2D _coor_cir = Point2D()
+        const Point2D cen = Point2D()
        ) :  
        mass(_mass),
        radius(_radius),
@@ -27,8 +35,8 @@ class Circle_Object:Physics_Object
        angular_velocity(_angular_velocity),
        e(_e),
        friction(_friction),
-       coor_cir(_coor_cir),
-       moment_of_inertia(0.0)
+       moment_of_inertia(0.0),
+       centroid(cen)
        {
         get_moment_of_inertia();
        }
@@ -62,5 +70,5 @@ class Circle_Object:Physics_Object
                 angular_velocity = std::max(new_angular_velocity,0.0);
             }
         }
-
+        void accept(Collision_Visitor& visitor) override;
 };
