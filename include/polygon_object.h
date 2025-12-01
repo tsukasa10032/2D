@@ -23,19 +23,19 @@ class Polygon_Object:Physics_Object
         std::vector<Point2D> coor_poly;  //多边形的顶点
         int axis_type;                  //转轴类型
 
-        void get_radius()
+        void cal_radius()
         {
             radius = sqrt(moment_of_inertia/mass);
         }
-        void get_moment_of_inertia();
-        void get_axis_type();
-        void get_centroid();
+        void cal_moment_of_inertia();
+        void cal_axis_type();
+        void cal_centroid();
         void update_physics()
         {
-            get_centroid();
-            get_axis_type();
-            get_moment_of_inertia();
-            get_radius();
+            cal_centroid();
+            cal_axis_type();
+            cal_moment_of_inertia();
+            cal_radius();
         }
     
     public:
@@ -49,7 +49,12 @@ class Polygon_Object:Physics_Object
         ):
         mass(_mass),
         velocity(_velocity),
-        angular_velocity(_angular_velocity)
+        angular_velocity(_angular_velocity),
+        e(_e),
+        friction(_friction),
+        radius(0.0),
+        moment_of_inertia(0.0),
+        axis_type(AXIS_INVAILD)
         {
             if(vertices.size() <= 3)
             {
@@ -105,7 +110,7 @@ class Polygon_Object:Physics_Object
                 throw std::invalid_argument("仅支持质心X/Y轴");
             }
             axis_type = type;
-            get_moment_of_inertia();
+            cal_moment_of_inertia();
         }
 
         void update(double delta_time) override;

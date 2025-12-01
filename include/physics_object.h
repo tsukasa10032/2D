@@ -17,12 +17,13 @@ class Physics_Object
     public:
             virtual ~Physics_Object() = default;
             //都支持的get方法
-            virtual Point2D get_position(){return centroid;}
+            virtual Point2D get_centroid(){return centroid;}
             virtual double get_mass(){return mass;}
             virtual Point2D get_velocity(){return velocity;}
             virtual double get_angular_velocity(){return angular_velocity;}
             virtual double get_e(){return e;};
             virtual double get_friction(){return friction;}
+            virtual double get_radius() {return radius;}
             //都支持的modify方法
             void modify_velocity(const Point2D& v){velocity = v;}
             void modify_angular_velocity(const double a_v){angular_velocity = a_v;}

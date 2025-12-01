@@ -2,17 +2,17 @@
 #include "Point2D.h"
 #include "physics_object.h"
 
-class Circle_Object:Physics_Object
+class Circle_Object:public Physics_Object
 {
     private:
-        Point2D centroid;           //位置(质心),(假设均匀的情况,圆形质心即为圆心)
-        Point2D velocity;           //法相速度
-        double mass;                //质量
-        double angular_velocity;    //角速度
-        double moment_of_inertia;   //转动惯量
-        double friction;            //摩擦系数
-        double e;                   //碰撞系数
-        double radius;              //旋转半径
+        double mass;
+        double radius;
+        Point2D velocity;
+        Point2D centroid;
+        double angular_velocity;
+        double e;
+        double friction;
+        double moment_of_inertia;
         void get_moment_of_inertia()
         {
             moment_of_inertia = 0.5*mass*radius*radius;

@@ -35,6 +35,10 @@ class Point2D
             return {x*num, y*num};
         }
 
+        Point2D operator*(const Point2D& other) const
+        {
+            return{x*other.x,y*other.y};
+        }
         Point2D& operator=(const Point2D& other)
         {
             if(this == &other)
@@ -92,9 +96,11 @@ class Point2D
         Point2D& modify_x(double _x)
         {
             this->x = _x;
+            return *this;
         }
         Point2D& modify_y(double _y)
         {
             this->y = _y;
+            return *this;
         }
 };

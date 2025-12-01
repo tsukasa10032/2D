@@ -2,7 +2,7 @@
 void Polygon_Object::update(double delta_time)
 {
     centroid = centroid + velocity * delta_time;
-    for(auto coordinate : coor_poly)
+    for(auto& coordinate : coor_poly)
     {
         coordinate = coordinate + velocity * delta_time;
     }
