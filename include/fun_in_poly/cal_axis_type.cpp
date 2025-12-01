@@ -2,7 +2,7 @@
 #include <cmath>
 #include "polygon_object.h"
 
-void Polygon_Object::get_axis_type()
+void Polygon_Object::cal_axis_type()
 {
     const size_t n = coor_poly.size();
     if(n < 3 || std::isnan(centroid.get_x()) || std::isnan(centroid.get_y()))

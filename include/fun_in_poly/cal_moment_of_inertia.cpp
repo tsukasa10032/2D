@@ -2,7 +2,7 @@
 #include <cmath>
 #include "polygon_object.h"
 
-void Polygon_Object::get_moment_of_inertia()
+void Polygon_Object::cal_moment_of_inertia()
 {
     const size_t n = coor_poly.size();
     const double eps = 1e-6;

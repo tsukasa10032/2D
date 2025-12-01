@@ -1,7 +1,7 @@
 #include <cmath>
 #include "polygon_object.h"
 
-void Polygon_Object::get_centroid()
+void Polygon_Object::cal_centroid()
 {
     int n = coor_poly.size();
     if(n < 3)       //  定点不足时设置为原点
