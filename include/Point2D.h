@@ -64,7 +64,7 @@ class Point2D
 
         double dot(const Point2D& other) const
         {
-            return x*other.y-y*other.x;
+            return x*other.x+y*other.y;
         }
 
         double cross(const Point2D& other) const

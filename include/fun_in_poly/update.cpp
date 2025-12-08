@@ -12,6 +12,17 @@ void Polygon_Object::update(double delta_time)
     if(std::abs(velocity.get_y()) < 1e-6) velocity.modify_y(0.0);
     if(angular_velocity != 0)
     {
+        double angle = angular_velocity * delta_time;
+        double cosA = cos(angle),sinA = sin(angle);
+        Point2D center = centroid;
+        for(auto& v: coor_poly)
+        {
+            Point2D p = v - center;
+            double x_new = p.get_x() * cosA - p.get_y()*sinA;
+            double y_new = p.get_x() * sinA - p.get_y()*cosA;
+
+            v = Point2D(x_new,y_new) + center;
+        }
         const double gravity = 9.8;
         const double decay_coeff = (4*friction*gravity)/(3*radius);     //物理公式计算角减速度
         double new_angular_velocity = angular_velocity - decay_coeff*delta_time;

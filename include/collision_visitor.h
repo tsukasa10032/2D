@@ -1,4 +1,5 @@
 class Circle_Object;
+class Polygon_Object;
 class Collision_Visitor
 {
     public:

@@ -9,7 +9,7 @@
 #define AXIS_CENTROID_X 1   //质心X轴
 #define AXIS_CENTROID_Y 2   //质心Y轴
 
-class Polygon_Object:Physics_Object
+class Polygon_Object:public Physics_Object
 {
     private:
         double mass;
@@ -85,6 +85,7 @@ class Polygon_Object:Physics_Object
 
         //  用于读取变量的get方法
         std::vector<Point2D> get_coor_poly()const {return coor_poly;}
+        std::pair<double,double> projection(const Point2D& axis) const;    //计算多边形在某轴上的投影区间(min,max)
 
         // 用于改变变量的modify方法
         template<typename ... Args>
