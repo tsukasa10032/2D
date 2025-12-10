@@ -67,7 +67,7 @@ class Circle_Object:public Physics_Object
                 angular_velocity = std::max(new_angular_velocity,0.0);
             }
         }
-        void accept(Collision_Visitor& visitor) override;
+        void accept(Collision_Visitor& visitor) {(void)visitor;};
 };
 
 #endif

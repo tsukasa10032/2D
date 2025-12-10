@@ -1,32 +1,5 @@
 #include "polygon_object.h"
 #include <vector>
-std::vector<Point2D> get_normals(const Polygon_Object& polygon)
-{
-    std::vector<Point2D> normals;
-    std::vector<Point2D> coordinates = polygon.get_coor_poly();
-    size_t n = coordinates.size();
-    for(size_t i = 0 ; i < n ; ++i)
-    {
-        Point2D edge = coordinates[(i+1)%n] - coordinates[i];
-        Point2D normal(-edge.get_y(),edge.get_x());
-
-        double normal_x;
-        double normal_y;
-        if(normal.length() > 1e-6)
-        {
-            normal_x = normal.get_x() / normal.length();
-            normal_y = normal.get_y() / normal.length();
-        }
-        normal = Point2D(normal_x,normal_y);
-        normals.push_back(normal);
-    }
-
-    return normals;
-}
-bool is_proj_overlap(double minA,double maxA,double minB,double maxB)
-{
-    return !(maxA<minB || maxB < minA);
-}
 
 void polygon_polygon_collision_response(Polygon_Object& p1,Polygon_Object& p2)
 {

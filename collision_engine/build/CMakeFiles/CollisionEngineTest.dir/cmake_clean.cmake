@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.obj.d"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj.d"
+  "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj"
+  "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj.d"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj.d"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj"

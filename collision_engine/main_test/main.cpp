@@ -9,7 +9,7 @@
 #include <thread>
 
 
-void graphic_creat(std::vector<Physics_Object*> objs);
+void graphic_create(std::vector<Physics_Object*> objs);
 
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
     std::cout << std::endl;
 
     std::vector<Physics_Object*> objs;
-    graphic_creat(objs);
+    graphic_create(objs);
 
     double left = 0,right = 100,top = 100,bottom = 0;
     int select;
@@ -69,12 +69,12 @@ int main(void)
         std::chrono::duration<double> elapsed = end - start;
         if (elapsed.count() < delta_time) {
             std::this_thread::sleep_for(std::chrono::duration<double>(delta_time - elapsed.count()));
-    }
+        }
 
-    for(auto obj : objs)
-    {
-        delete obj;
+        for(auto obj : objs)
+        {
+            delete obj;
+        }
+        return 0;
     }
-
-    return 0;
 }

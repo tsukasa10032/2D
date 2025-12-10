@@ -296,6 +296,30 @@ src/collision_response/polygon_polygon_collision.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.s
 .PHONY : src/collision_response/polygon_polygon_collision.cpp.s
 
+src/collision_visitor/closest_point_on_segment.obj: src/collision_visitor/closest_point_on_segment.cpp.obj
+.PHONY : src/collision_visitor/closest_point_on_segment.obj
+
+# target to build an object file
+src/collision_visitor/closest_point_on_segment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj
+.PHONY : src/collision_visitor/closest_point_on_segment.cpp.obj
+
+src/collision_visitor/closest_point_on_segment.i: src/collision_visitor/closest_point_on_segment.cpp.i
+.PHONY : src/collision_visitor/closest_point_on_segment.i
+
+# target to preprocess a source file
+src/collision_visitor/closest_point_on_segment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.i
+.PHONY : src/collision_visitor/closest_point_on_segment.cpp.i
+
+src/collision_visitor/closest_point_on_segment.s: src/collision_visitor/closest_point_on_segment.cpp.s
+.PHONY : src/collision_visitor/closest_point_on_segment.s
+
+# target to generate assembly for a file
+src/collision_visitor/closest_point_on_segment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.s
+.PHONY : src/collision_visitor/closest_point_on_segment.cpp.s
+
 src/collision_visitor/get_normals.obj: src/collision_visitor/get_normals.cpp.obj
 .PHONY : src/collision_visitor/get_normals.obj
 
@@ -566,6 +590,9 @@ help:
 	@echo ... src/collision_response/polygon_polygon_collision.obj
 	@echo ... src/collision_response/polygon_polygon_collision.i
 	@echo ... src/collision_response/polygon_polygon_collision.s
+	@echo ... src/collision_visitor/closest_point_on_segment.obj
+	@echo ... src/collision_visitor/closest_point_on_segment.i
+	@echo ... src/collision_visitor/closest_point_on_segment.s
 	@echo ... src/collision_visitor/get_normals.obj
 	@echo ... src/collision_visitor/get_normals.i
 	@echo ... src/collision_visitor/get_normals.s

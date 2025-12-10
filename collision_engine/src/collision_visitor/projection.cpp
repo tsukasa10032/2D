@@ -15,3 +15,15 @@ std::pair<double,double> projection(const Polygon_Object& polygon,const Point2D&
 
     return {min_proj,max_proj};
 }
+
+std::pair<double, double> Polygon_Object::projection(const Point2D& axis) const {
+    std::vector<Point2D> vertices = get_coor_poly();
+    double min_proj = vertices[0].dot(axis);
+    double max_proj = min_proj;
+    for (const auto& v : vertices) {
+        double proj = v.dot(axis);
+        min_proj = std::min(min_proj, proj);
+        max_proj = std::max(max_proj, proj);
+    }
+    return {min_proj, max_proj};
+}

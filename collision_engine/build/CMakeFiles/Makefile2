@@ -84,12 +84,12 @@ clean: CMakeFiles/CollisionEngineTest.dir/clean
 CMakeFiles/CollisionEngineTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target CollisionEngineTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target CollisionEngineTest"
 .PHONY : CMakeFiles/CollisionEngineTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CollisionEngineTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" 18
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CollisionEngineTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" 0
 .PHONY : CMakeFiles/CollisionEngineTest.dir/rule
@@ -101,7 +101,7 @@ CollisionEngineTest: CMakeFiles/CollisionEngineTest.dir/rule
 # codegen rule for target.
 CMakeFiles/CollisionEngineTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Finished codegen for target CollisionEngineTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Finished codegen for target CollisionEngineTest"
 .PHONY : CMakeFiles/CollisionEngineTest.dir/codegen
 
 # clean rule for target.

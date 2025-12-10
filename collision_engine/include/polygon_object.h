@@ -110,7 +110,10 @@ class Polygon_Object:public Physics_Object
         }
 
         void update(double delta_time) override;
-        void accept(Collision_Visitor& visitor) override;
+        void accept(Collision_Visitor& visitor) {(void)visitor;};
 };
+Point2D closest_point_on_segment(const Point2D& p, const Point2D& a, const Point2D& b);
+std::vector<Point2D> get_normals(const Polygon_Object& polygon);
+bool is_proj_overlap(double minA, double maxA, double minB, double maxB);
 
 #endif

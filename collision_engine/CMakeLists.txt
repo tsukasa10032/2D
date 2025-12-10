@@ -18,6 +18,8 @@ set(SOURCE_FILES
     main_test/main.cpp
 
     # src/collision_visitor
+    src/collision_visitor/is_proj_overlap.cpp
+    src/collision_visitor/closest_point_on_segment.cpp
     src/collision_visitor/get_normals.cpp
     src/collision_visitor/is_circle_circle_collision.cpp
     src/collision_visitor/is_polygon_circle_collision.cpp

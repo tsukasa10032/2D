@@ -1,5 +1,5 @@
 #ifndef COLLISION_VISITOR_H
-#define COLLISOIN_VISITOR_H
+#define COLLISION_VISITOR_H
 
 class Circle_Object;
 class Polygon_Object;

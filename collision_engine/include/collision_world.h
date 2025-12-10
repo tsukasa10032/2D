@@ -10,6 +10,8 @@
 #include "Point2D.h"
 #include <algorithm>
 
+class Collision_World;
+
 bool is_circle_circle_collision(Circle_Object& c1,Circle_Object& c2);
 void circle_circle_collision_response(Circle_Object& c1,Circle_Object& c2);
 bool is_circle_polygon_collision(Circle_Object& c,Polygon_Object& p);
