@@ -1,7 +1,41 @@
 # 2D
  技术力不足，无法进行图形化演示，只能在小黑窗下运算了
 
- 给出了一个pyhsic_object父类(全虚)仅用来继承
- 有两个circle类，圆形
- 有两个polygon类，多边形
+ 程序大体分为两个模块
+ 引擎部分和对引擎进行简单应用部分
+ (引擎部分功能尚未实现(不太会写了))
 
+一.引擎部分
+*****************************************************************************
+ 引擎部分有两部分组成
+ 1.头文件include部分
+ 我分为了几个头文件
+ circle_object.h
+ collision_visitor.h(尚未完全实现)
+ colliision_world.h
+ physics_object.h
+ Point2D.h
+ polygon_object.h
+ physical_manager.h(我的main_test中没有对这个进行应用)
+ 
+ 头文件部分以Point2D.h这个实现向量的各种运算为初始
+ 创建了一个父类physics_object(全虚)
+ 用于实现子类的circle_object 和 polygon_object 的统一操作
+
+ collision_world创建了一个用于管理所有碰撞对象和碰撞边界的模型
+ pyscial_manager旨在通过确认管理不同碰撞的各种情况
+
+ 2.src部分
+ src是处理各种情况的核心实现部分
+ 主要分为4个模块
+ collision_response 用来计算物体碰撞之后的情况
+ collision_visitor 用来检测物体是否碰撞，其中还含有一些简单的计算物体性质的函数
+ collision_world 用来检测物体是否与边界碰撞
+ polygon_object 内部函数是polygon_object.h中较为复杂函数的具体实现
+ *********************************************************************************
+
+二.测试部分
+我运用了简单的引擎操作对我的二维碰撞引擎进行了简单的具体实现
+具体体现为
+创建任意数量个图形，进行碰撞计算(该过程无图形化界面(技术力不足,无法实现))
+并按10帧的方式进行逐个展示。
