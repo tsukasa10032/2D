@@ -416,6 +416,30 @@ src/collision_visitor/is_polygon_polygon_collision.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.s
 .PHONY : src/collision_visitor/is_polygon_polygon_collision.cpp.s
 
+src/collision_visitor/is_proj_overlap.obj: src/collision_visitor/is_proj_overlap.cpp.obj
+.PHONY : src/collision_visitor/is_proj_overlap.obj
+
+# target to build an object file
+src/collision_visitor/is_proj_overlap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj
+.PHONY : src/collision_visitor/is_proj_overlap.cpp.obj
+
+src/collision_visitor/is_proj_overlap.i: src/collision_visitor/is_proj_overlap.cpp.i
+.PHONY : src/collision_visitor/is_proj_overlap.i
+
+# target to preprocess a source file
+src/collision_visitor/is_proj_overlap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.i
+.PHONY : src/collision_visitor/is_proj_overlap.cpp.i
+
+src/collision_visitor/is_proj_overlap.s: src/collision_visitor/is_proj_overlap.cpp.s
+.PHONY : src/collision_visitor/is_proj_overlap.s
+
+# target to generate assembly for a file
+src/collision_visitor/is_proj_overlap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollisionEngineTest.dir\build.make CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.s
+.PHONY : src/collision_visitor/is_proj_overlap.cpp.s
+
 src/collision_visitor/projection.obj: src/collision_visitor/projection.cpp.obj
 .PHONY : src/collision_visitor/projection.obj
 
@@ -605,6 +629,9 @@ help:
 	@echo ... src/collision_visitor/is_polygon_polygon_collision.obj
 	@echo ... src/collision_visitor/is_polygon_polygon_collision.i
 	@echo ... src/collision_visitor/is_polygon_polygon_collision.s
+	@echo ... src/collision_visitor/is_proj_overlap.obj
+	@echo ... src/collision_visitor/is_proj_overlap.i
+	@echo ... src/collision_visitor/is_proj_overlap.s
 	@echo ... src/collision_visitor/projection.obj
 	@echo ... src/collision_visitor/projection.i
 	@echo ... src/collision_visitor/projection.s

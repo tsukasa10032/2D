@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.obj.d"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj.d"
+  "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj"
+  "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj.d"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj.d"
   "CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.obj"

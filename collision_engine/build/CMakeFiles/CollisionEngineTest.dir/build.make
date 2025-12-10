@@ -131,11 +131,26 @@ CMakeFiles/CollisionEngineTest.dir/main_test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CollisionEngineTest.dir/main_test/main.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\styno\Desktop\yin yue\2D\collision_engine\main_test\main.cpp" -o CMakeFiles\CollisionEngineTest.dir\main_test\main.cpp.s
 
+CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj: CMakeFiles/CollisionEngineTest.dir/flags.make
+CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
+CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_visitor/is_proj_overlap.cpp
+CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_proj_overlap.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_proj_overlap.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\is_proj_overlap.cpp"
+
+CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\is_proj_overlap.cpp" > CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_proj_overlap.cpp.i
+
+CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\is_proj_overlap.cpp" -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_proj_overlap.cpp.s
+
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj: CMakeFiles/CollisionEngineTest.dir/flags.make
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_visitor/closest_point_on_segment.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\closest_point_on_segment.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\closest_point_on_segment.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\closest_point_on_segment.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.i: cmake_force
@@ -150,7 +165,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj: CM
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_visitor/get_normals.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\get_normals.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\get_normals.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\get_normals.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.i: cmake_force
@@ -165,7 +180,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collis
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_visitor/is_circle_circle_collision.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_circle_circle_collision.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_circle_circle_collision.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\is_circle_circle_collision.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.i: cmake_force
@@ -180,7 +195,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_colli
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_visitor/is_polygon_circle_collision.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_polygon_circle_collision.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_polygon_circle_collision.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\is_polygon_circle_collision.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_circle_collision.cpp.i: cmake_force
@@ -195,7 +210,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_coll
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_visitor/is_polygon_polygon_collision.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_polygon_polygon_collision.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\is_polygon_polygon_collision.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\is_polygon_polygon_collision.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_polygon_polygon_collision.cpp.i: cmake_force
@@ -210,7 +225,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj: CMa
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_visitor/projection.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\projection.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_visitor\projection.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_visitor\projection.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/projection.cpp.i: cmake_force
@@ -225,7 +240,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collisio
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collision.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_response/circle_circle_collision.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collision.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collision.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_response\circle_circle_collision.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_response\circle_circle_collision.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_response\circle_circle_collision.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_circle_collision.cpp.i: cmake_force
@@ -240,7 +255,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collisi
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_response/circle_polygon_collision.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_response\circle_polygon_collision.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_response\circle_polygon_collision.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_response\circle_polygon_collision.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/circle_polygon_collision.cpp.i: cmake_force
@@ -255,7 +270,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collis
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_response/polygon_polygon_collision.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_response\polygon_polygon_collision.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_response\polygon_polygon_collision.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_response\polygon_polygon_collision.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_response/polygon_polygon_collision.cpp.i: cmake_force
@@ -270,7 +285,7 @@ CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/collision_world/collision_edge_detect.cpp
 CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\collision_world\collision_edge_detect.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\collision_world\collision_edge_detect.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\collision_world\collision_edge_detect.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/collision_world/collision_edge_detect.cpp.i: cmake_force
@@ -285,7 +300,7 @@ CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.obj: CMa
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/polygon_object/cal_axis_type.cpp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\polygon_object\cal_axis_type.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\polygon_object\cal_axis_type.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\polygon_object\cal_axis_type.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_axis_type.cpp.i: cmake_force
@@ -300,7 +315,7 @@ CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.obj: CMak
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/polygon_object/cal_centroid.cpp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\polygon_object\cal_centroid.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\polygon_object\cal_centroid.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\polygon_object\cal_centroid.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_centroid.cpp.i: cmake_force
@@ -315,7 +330,7 @@ CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/polygon_object/cal_moment_of_inertia.cpp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\polygon_object\cal_moment_of_inertia.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\polygon_object\cal_moment_of_inertia.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\polygon_object\cal_moment_of_inertia.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/cal_moment_of_inertia.cpp.i: cmake_force
@@ -330,7 +345,7 @@ CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.obj: CMakeFiles
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.obj: CMakeFiles/CollisionEngineTest.dir/includes_CXX.rsp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.obj: C:/Users/styno/Desktop/yin\ yue/2D/collision_engine/src/polygon_object/update.cpp
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.obj: CMakeFiles/CollisionEngineTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.obj -MF CMakeFiles\CollisionEngineTest.dir\src\polygon_object\update.cpp.obj.d -o CMakeFiles\CollisionEngineTest.dir\src\polygon_object\update.cpp.obj -c "C:\Users\styno\Desktop\yin yue\2D\collision_engine\src\polygon_object\update.cpp"
 
 CMakeFiles/CollisionEngineTest.dir/src/polygon_object/update.cpp.i: cmake_force
@@ -347,6 +362,7 @@ CollisionEngineTest_OBJECTS = \
 "CMakeFiles/CollisionEngineTest.dir/main_test/function_in_main/add_a_polygon.cpp.obj" \
 "CMakeFiles/CollisionEngineTest.dir/main_test/function_in_main/graphic_create.cpp.obj" \
 "CMakeFiles/CollisionEngineTest.dir/main_test/main.cpp.obj" \
+"CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj" \
 "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj" \
 "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj" \
 "CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj" \
@@ -369,6 +385,7 @@ CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/main_test/function_i
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/main_test/function_in_main/add_a_polygon.cpp.obj
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/main_test/function_in_main/graphic_create.cpp.obj
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/main_test/main.cpp.obj
+CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_proj_overlap.cpp.obj
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/closest_point_on_segment.cpp.obj
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/get_normals.cpp.obj
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/src/collision_visitor/is_circle_circle_collision.cpp.obj
@@ -387,7 +404,7 @@ CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/build.make
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/linkLibs.rsp
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/objects1.rsp
 CollisionEngineTest.exe: CMakeFiles/CollisionEngineTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable CollisionEngineTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\styno\Desktop\yin yue\2D\collision_engine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable CollisionEngineTest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CollisionEngineTest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

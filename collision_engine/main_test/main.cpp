@@ -9,7 +9,7 @@
 #include <thread>
 
 
-void graphic_create(std::vector<Physics_Object*> objs);
+void graphic_create(std::vector<Physics_Object*>& objs);
 
 int main(void)
 {
