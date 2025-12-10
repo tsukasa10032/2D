@@ -5,14 +5,7 @@
 class Circle_Object:public Physics_Object
 {
     private:
-        double mass;
         double radius;
-        Point2D velocity;
-        Point2D centroid;
-        double angular_velocity;
-        double e;
-        double friction;
-        double moment_of_inertia;
         void get_moment_of_inertia()
         {
             moment_of_inertia = 0.5*mass*radius*radius;
@@ -28,17 +21,18 @@ class Circle_Object:public Physics_Object
         double _e = 1.0,
         double _friction = 0.0,
         const Point2D cen = Point2D()
-       ) :  
-       mass(_mass),
-       radius(_radius),
-       velocity(_velocity),
-       angular_velocity(_angular_velocity),
-       e(_e),
-       friction(_friction),
-       moment_of_inertia(0.0),
-       centroid(cen)
+       )
        {
-        get_moment_of_inertia();
+            mass = _mass;
+            this->radius = _radius;
+            velocity = _velocity;
+            angular_velocity = _angular_velocity;
+            e = _e;
+            friction = _friction;
+            moment_of_inertia = 0.0;
+            centroid = cen;
+
+            get_moment_of_inertia();
        }
         //  get方法完全继承父类
 
@@ -49,11 +43,11 @@ class Circle_Object:public Physics_Object
         }
         void modify_radius(double _radius) 
         {
-            radius = _radius;   
+            this->radius = _radius;   
             get_moment_of_inertia();
         }
         
-        void update(double delta_time)
+        void update(double delta_time) override
         {
             centroid = centroid + velocity*delta_time;
             if(velocity != Point2D() && friction != 0)

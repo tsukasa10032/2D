@@ -6,7 +6,7 @@ void Polygon_Object::cal_moment_of_inertia()
 {
     const size_t n = coor_poly.size();
     const double eps = 1e-6;
-    if(n < 3 || mass < eps || axis_type <= 0)
+    if(n < 3 || mass < eps || axis_type == AXIS_INVAILD)
     {
         moment_of_inertia = 0.0;
         return;

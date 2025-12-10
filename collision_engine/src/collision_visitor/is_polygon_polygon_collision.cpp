@@ -1,8 +1,10 @@
 #include "polygon_object.h"
 #include <vector>
 
+bool is_proj_overlap(double minA,double maxA,double minB,double maxB);
+std::pair<double,double> projection(const Polygon_Object& polygon,const Point2D& axis);
 
-bool is_polygon_polygon_collision(const Polygon_Object& o1,const Polygon_Object& o2)
+bool is_polygon_polygon_collision(Polygon_Object& o1,Polygon_Object& o2)
 {
     std::vector<Point2D> normals = get_normals(o1);
     std::vector<Point2D> normalsB = get_normals(o2);
@@ -31,4 +33,3 @@ bool is_proj_overlap(double minA,double maxA,double minB,double maxB)
 }
 
 std::vector<Point2D> get_normals(const Polygon_Object& polygon);
-std::pair<double,double> projection(const Polygon_Object& polygon,const Point2D& axis);

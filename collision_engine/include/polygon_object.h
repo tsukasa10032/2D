@@ -12,14 +12,6 @@
 class Polygon_Object:public Physics_Object
 {
     private:
-        double mass;
-        double angular_velocity;
-        Point2D velocity;
-        Point2D centroid;
-        double friction;
-        double e;
-        double moment_of_inertia;
-        double radius;
         std::vector<Point2D> coor_poly;  //多边形的顶点
         int axis_type;                  //转轴类型
 
@@ -46,17 +38,17 @@ class Polygon_Object:public Physics_Object
             double _angular_velocity,
             double _e = 1.0,
             double _friction = 0.0
-        ):
-        mass(_mass),
-        velocity(_velocity),
-        angular_velocity(_angular_velocity),
-        e(_e),
-        friction(_friction),
-        radius(0.0),
-        moment_of_inertia(0.0),
-        axis_type(AXIS_INVAILD)
+        ):axis_type(AXIS_INVAILD)
         {
-            if(vertices.size() <= 3)
+            mass = _mass;
+            velocity = _velocity;
+            angular_velocity = _angular_velocity;
+            e = _e;
+            friction = _friction;
+            radius = 0.0;
+            moment_of_inertia = 0.0;
+
+            if(vertices.size() < 3)
             {
                 throw std::invalid_argument("The coordinates must >= 3");
             }
@@ -92,13 +84,13 @@ class Polygon_Object:public Physics_Object
         void modify_coor_poly(const Point2D& p1,const Point2D& p2,const Point2D& p3,const Args& ...rest)
         {
             static_assert((std::is_same_v<Point2D,Args> && ...),
-        "所有参数必须是Point2D类型")    //  类型检测
+        "所有参数必须是Point2D类型");  //  类型检测
 
             coor_poly.clear();
             coor_poly.push_back(p1);
             coor_poly.push_back(p2);
             coor_poly.push_back(p3);
-            (coor_poly.push_back(rest),...)
+            (coor_poly.push_back(rest),...);
 
             update_physics();
         }

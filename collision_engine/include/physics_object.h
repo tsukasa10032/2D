@@ -27,6 +27,7 @@ class Physics_Object
             //都支持的modify方法
             void modify_velocity(const Point2D& v){velocity = v;}
             void modify_angular_velocity(const double a_v){angular_velocity = a_v;}
+            void modify_centroid(const Point2D& cen){centroid = cen;}
             void modify_e(const double _e)
             {
                 if(_e > 1 || _e < 0)
