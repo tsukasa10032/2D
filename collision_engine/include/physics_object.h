@@ -1,3 +1,6 @@
+#ifndef PHYSICS_OBJECT_H
+#define PHYSICS_OBJECT_H
+
 #include <iostream>
 #include <cmath>
 #include "Point2D.h"
@@ -51,3 +54,5 @@ class Physics_Object
             virtual void accept(Collision_Visitor& visitor) = 0;
 
 };
+
+#endif

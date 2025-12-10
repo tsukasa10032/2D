@@ -1,3 +1,6 @@
+#ifndef POINT2D_H
+#define POINT2D_H
+
 //  本文件用于实现坐标的各种运算   //
 #include <cmath>
 class Point2D
@@ -103,4 +106,8 @@ class Point2D
             this->y = _y;
             return *this;
         }
+
 };
+
+#endif
+

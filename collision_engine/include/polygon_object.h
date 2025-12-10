@@ -1,3 +1,6 @@
+#ifndef POLYGON_OBJECT_H
+#define POLYGON_OBJECT_H
+
 #include <vector>
 #include <iostream>
 #include <cmath>
@@ -109,3 +112,5 @@ class Polygon_Object:public Physics_Object
         void update(double delta_time) override;
         void accept(Collision_Visitor& visitor) override;
 };
+
+#endif

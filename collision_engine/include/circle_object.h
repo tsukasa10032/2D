@@ -1,3 +1,6 @@
+#ifndef CIRCLE_OBJECT_H
+#define CIRCLE_OBJECT_H
+
 #include <iostream>
 #include "Point2D.h"
 #include "physics_object.h"
@@ -66,3 +69,5 @@ class Circle_Object:public Physics_Object
         }
         void accept(Collision_Visitor& visitor) override;
 };
+
+#endif

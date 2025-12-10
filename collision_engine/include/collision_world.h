@@ -1,3 +1,6 @@
+#ifndef COLLISION_WORLD_H
+#define COLLISION_WORLD_H
+
 /*创建一个用于建立碰撞世界的区域*/
 #include "physics_object.h"
 #include "circle_object.h"
@@ -105,3 +108,5 @@ class Collision_World
             }
         }
 };
+
+#endif

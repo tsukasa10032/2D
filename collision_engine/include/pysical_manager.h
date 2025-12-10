@@ -1,3 +1,6 @@
+#ifndef PYSICAL_MANAGER_H
+#define PYSICAL_MANAGER_H
+
 template <typename T,typename U>
 class Pysical_Manager
 {
@@ -34,3 +37,5 @@ class Pysical_Manager
             }
         }
 };
+
+#endif

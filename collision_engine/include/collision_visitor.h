@@ -1,3 +1,6 @@
+#ifndef COLLISION_VISITOR_H
+#define COLLISOIN_VISITOR_H
+
 class Circle_Object;
 class Polygon_Object;
 class Collision_Visitor
@@ -11,3 +14,4 @@ class Collision_Visitor
         virtual void visit(Polygon_Object& polygon1,Polygon_Object& Polygon2) = 0;  
 
 };
+#endif
